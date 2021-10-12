@@ -9,6 +9,9 @@ function addTaskToUL() {
                 <button class="delete-btn" onclick="deleteTask(this)">X</button>
             `;
     if(content === ""){
+        alert("EMPTY FIELD!\n\n" +
+            "Write something you have to do and then" +
+            " click on button (ADD TASK) to add it to the list.");
         return;
     }
     document.getElementById('task-list').appendChild(newLi);
