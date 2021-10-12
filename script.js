@@ -3,11 +3,11 @@ function addTaskToUL() {
     counterID++;
     let content = document.getElementById("input-task").value;
     let newLi = document.createElement("li");
-    newLi.innerHTML = `<li>
+    newLi.innerHTML = `
                 <input type="checkbox" class="check">
                 <span class="task">${content}</span>
                 <button class="delete-btn" onclick="deleteTask(this)">X</button>
-            </li>`;
+            `;
     if(content === ""){
         return;
     }
@@ -22,8 +22,4 @@ function deleteTask(obj) {
     obj.parentNode.remove();
 }
 
-function line(){
-
-
-}
 

@@ -31,10 +31,9 @@
     }
 }
 
-body {
+body{
     background-color: rgba(163, 163, 180, 0.18);
 }
-
 .title {
     text-align: center;
 }
@@ -93,10 +92,16 @@ li {
 
 }
 
+
+input[type="checkbox"] {
+    filter: hue-rotate(240deg) brightness(1.4);
+}
+
 .check {
     margin-right: 15px;
     height: 20px;
     width: 20px;
+    /*background-color: mediumspringgreen;*/
 
 }
 
