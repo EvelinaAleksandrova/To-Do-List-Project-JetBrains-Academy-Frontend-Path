@@ -1,2 +1,2 @@
-# To-Do-List-Project-JetBrains-Academy-Frontend-Path
+# To-Do List Project JetBrains Academy Frontend Path
 
