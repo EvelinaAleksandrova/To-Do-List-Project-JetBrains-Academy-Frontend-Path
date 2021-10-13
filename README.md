@@ -1,8 +1,9 @@
 # To-Do List Project
-
-📋 Simple to-do list where you can add new tasks, mark them as done, or delete them if they are no longer important.
-
 JetBrains Academy Frontend Path
+
+# 📋 Simple to-do list where you can add new tasks, mark them as done, or delete them if they are no longer important.
+
+
 
 # DEMO 
 https://evelinaaleksandrova.github.io/evelinaaleksandrova.github.io-To-Do-List/
